@@ -1,0 +1,11 @@
+
+@mixin pattern-overlay {
+    position: absolute;
+    inset: 0;
+    background-image: url("../assets/shared/patron.png");
+    background-position: center;
+    background-size: 420px auto;
+    content: "";
+    opacity: 0.07;
+    pointer-events: none;
+}

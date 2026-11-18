@@ -1,0 +1,34 @@
+@use "../../base" as tokens;
+
+.intro {
+    background-color: white;
+    padding: 30px 86px;
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+
+    img {
+        width: 258px;
+        height: 255px;
+    }
+
+    .separator {
+    width: 2px;
+    height: 265px;
+    background-color: tokens.$color-negro;
+    flex-shrink: 0;
+}
+
+    .text {
+        display: flex;
+        align-items: center;
+        width: 64%;
+    }
+
+    p {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0;
+        
+    }
+}
